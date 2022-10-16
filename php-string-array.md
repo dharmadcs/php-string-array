@@ -1,0 +1,146 @@
+## 1. PHP String :
+
+- explode ()  :   Memecah string menjadi array
+- implode()  :   Mengembalikan string dari elemen array
+- lcfirst()  :   Mengonversi karakter pertama dari string menjadi huruf kecil
+- md5()  :   Menghitung hash MD5 dari sebuah string
+- money_format()  :   Mengembalikan string yang diformat sebagai string mata uang
+- number_format()  :   Memformat angka dengan ribuan yang dikelompokkan
+- parse_str()  :   Mem-parsing string kueri menjadi variabel
+- count_chars()  :   Mengembalikan informasi tentang karakter yang digunakan dalam string
+- similar_text()  :   Menghitung kesamaan antara dua string
+- str_replace()  :   Mengganti beberapa karakter dalam string (peka huruf besar/kecil)
+- str_split()  :   Membagi string menjadi array
+- str_word_count()  :   Menghitung jumlah kata dalam sebuah string
+- strcasecmp()  :   Membandingkan dua string (case-insensitive)
+- strcmp()  :   Membandingkan dua string (peka huruf besar/kecil)
+- strip_tags()  :   Menghapus tag HTML dan PHP dari sebuah string
+- strlen()  :   Mengembalikan panjang string
+- strrev()  :   Membalikkan string
+- strtolower()  :   Mengonversi string menjadi huruf kecil
+- strtoupper()  :   Mengonversi string menjadi huruf besar
+- substr_replace()  :   Mengganti bagian dari string dengan string lain
+- trim()  :   Menghapus spasi atau karakter lain dari kedua sisi string
+- ucwords()  :   Mengonversi karakter pertama dari setiap kata dalam string menjadi huruf besar
+- wordwrap()  :   Membungkus string ke sejumlah karakter tertentu
+- str_repeat()  :   Mengulangi string beberapa kali
+- str_shuffle()  :   Secara acak mengocok semua karakter dalam sebuah string
+- substr()  :   Mengembalikan bagian dari string
+- ucfirst()  :   Mengonversi karakter pertama dari string menjadi huruf besar
+
+## belajar_lagi
+- chop()  :   Menghapus spasi atau karakter lain dari ujung kanan string
+- chunk_split()  :   Membagi string menjadi serangkaian bagian yang lebih kecil
+- crypt()  :   hashing string satu arah
+- echo()  :   Menghasilkan satu atau lebih string
+- fprintf()  :   Menulis string yang diformat ke aliran output yang ditentukan
+- ltrim()  :   Menghapus spasi atau karakter lain dari sisi kiri string
+- print()  :   Menghasilkan satu atau lebih string
+- printf()  :   Menghasilkan string yang diformat
+- rtrim()  :   Menghapus spasi atau karakter lain dari sisi kanan string
+- setlocale()  :   Mengatur informasi lokal
+- sprintf()  :   Menulis string yang diformat ke variabel
+- sscanf()  :   Mem-parsing input dari string menurut format
+- str_ireplace()  :   Mengganti beberapa karakter dalam string (tidak peka huruf besar/kecil)
+- str_pad()  :   Pads string ke panjang baru
+- strcoll()  :   Membandingkan dua string (perbandingan string berbasis lokal)
+- stripos()  :   Mengembalikan posisi kemunculan pertama string di dalam string lain (tidak peka huruf besar/kecil)
+- stristr()  :   Menemukan kemunculan pertama string di dalam string lain (tidak peka huruf besar/kecil)
+- strncmp()  :   Perbandingan string dari n karakter pertama (peka huruf besar/kecil)
+- strpbrk()  :   Mencari string untuk salah satu set karakter
+- strpos()  :   Mengembalikan posisi kemunculan pertama string di dalam string lain (peka huruf besar/kecil)
+- strrchr()  :   Menemukan kemunculan terakhir dari string di dalam string lain
+- strrpos()  :   Menemukan posisi kemunculan terakhir string di dalam string lain (peka huruf besar-kecil)
+- strspn()  :   Mengembalikan jumlah karakter yang ditemukan dalam string yang hanya berisi karakter dari daftar karakter tertentu
+- strstr()  :   Menemukan kemunculan pertama string di dalam string lain (peka huruf besar-kecil)
+- strtok()  :   Membagi string menjadi string yang lebih kecil
+- strtr()  :   Menerjemahkan karakter tertentu dalam sebuah string
+- substr_compare()  :   Membandingkan dua string dari posisi awal yang ditentukan (biner safe dan opsional case-sensitive)
+- substr_count()  :   Menghitung berapa kali substring muncul dalam sebuah string
+- vfprintf()  :   Menulis string yang diformat ke aliran output yang ditentukan
+- vprintf()  :   Menghasilkan string yang diformat
+- vsprintf()  :   Menulis string yang diformat ke variable
+
+
+------------
+
+## 2. PHP Array :
+- array_change_key_case()  :   Mengubah semua kunci dalam array menjadi huruf kecil atau huruf besar
+- array_chunk()  :   Membagi sebuah array menjadi potongan-potongan array
+- array_column()  :   Mengembalikan nilai dari satu kolom dalam array input
+- array_merge()  :   Menggabungkan satu atau lebih array menjadi satu array
+- array_replace()  :   Mengganti nilai array pertama dengan nilai dari array berikut
+- array_reverse()  :   Mengembalikan array dalam urutan terbalik
+- array_search()  :   Mencari array untuk nilai yang diberikan dan mengembalikan kuncinya
+- array_unique()  :   Menghapus nilai duplikat dari array
+- array_values()  :   Mengembalikan semua nilai array
+- arsort()  :   Mengurutkan array asosiatif dalam urutan menurun, menurut nilainya
+- asort()  :   Mengurutkan array asosiatif dalam urutan menaik, menurut nilainya
+- count()  :   Mengembalikan jumlah elemen dalam array
+- key()  :   Mengambil kunci dari array
+- rsort()  :   Mengurutkan array yang diindeks dalam urutan menurun
+- sort()  :   Mengurutkan array yang diindeks dalam urutan menaik
+
+## belajar_lagi
+- array_combine()  :   Membuat larik dengan menggunakan elemen dari satu larik "kunci" dan satu larik "nilai"
+- array_count_values()  :   Menghitung semua nilai array
+- array_diff()  :   Bandingkan array, dan kembalikan perbedaannya (bandingkan nilai saja)
+- array_diff_assoc()  :   Bandingkan array, dan kembalikan perbedaannya (bandingkan kunci dan nilai)
+- array_diff_key()  :   Bandingkan array, dan kembalikan perbedaannya (bandingkan kunci saja)
+- array_diff_uassoc()  :   Bandingkan array, dan kembalikan perbedaannya (bandingkan kunci dan nilai, menggunakan fungsi perbandingan kunci yang ditentukan pengguna)
+- array_diff_ukey()  :   Bandingkan array, dan kembalikan perbedaannya (bandingkan kunci saja, menggunakan fungsi perbandingan kunci yang ditentukan pengguna)
+- array_fill()  :   Mengisi array dengan nilai
+- array_fill_keys()  :   Mengisi array dengan nilai, menentukan kunci
+- array_filter()  :   Memfilter nilai array menggunakan fungsi panggilan balik
+- array_flip()  :   Membalik/Menukarkan semua kunci dengan nilai terkait dalam array
+- array_intersect()  :   Bandingkan array, dan kembalikan kecocokan (bandingkan nilai saja)
+- array_intersect_assoc()  :   Bandingkan array dan kembalikan kecocokan (bandingkan kunci dan nilai)
+- array_intersect_key()  :   Bandingkan array, dan kembalikan kecocokan (bandingkan kunci saja)
+- array_intersect_uassoc()  :   Bandingkan array, dan kembalikan kecocokan (bandingkan kunci dan nilai, menggunakan fungsi perbandingan kunci yang ditentukan pengguna)
+- array_intersect_ukey()  :   Bandingkan array, dan kembalikan kecocokan (bandingkan kunci saja, menggunakan fungsi perbandingan kunci yang ditentukan pengguna)
+- array_key_exists()  :   Memeriksa apakah kunci yang ditentukan ada dalam array
+- array_keys()  :   Mengembalikan semua kunci array
+- array_map()  :   Mengirim setiap nilai array ke fungsi buatan pengguna, yang mengembalikan nilai baru
+- array_merge_recursive()  :   Menggabungkan satu atau lebih array menjadi satu array secara rekursif
+- array_multisort()  :   Mengurutkan array multidimensi atau multidimensi
+- array_pad()  :   Menyisipkan sejumlah item tertentu, dengan nilai tertentu, ke array
+- array_pop()  :   Menghapus elemen terakhir dari array
+- array_product()  :   Menghitung produk dari nilai-nilai dalam array
+- array_push()  :   Menyisipkan satu atau lebih elemen ke akhir array
+- array_rand()  :   Mengembalikan satu atau lebih kunci acak dari sebuah array
+- array_reduce()  :   Mengembalikan array sebagai string, menggunakan fungsi yang ditentukan pengguna
+- array_replace_recursive()  :   Mengganti nilai array pertama dengan nilai dari array berikut secara rekursif
+- array_shift()  :   Menghapus elemen pertama dari array, dan mengembalikan nilai elemen yang dihapus
+- array_slice()  :   Mengembalikan bagian yang dipilih dari array
+- array_splice()  :   Menghapus dan mengganti elemen tertentu dari array
+- array_sum()  :   Mengembalikan jumlah nilai dalam array
+- array_udiff()  :   Bandingkan array, dan kembalikan perbedaannya (bandingkan nilai saja, menggunakan fungsi perbandingan kunci yang ditentukan pengguna)
+- array_udiff_assoc()  :   Bandingkan array, dan kembalikan perbedaannya (bandingkan kunci dan nilai, menggunakan fungsi bawaan untuk membandingkan kunci dan fungsi yang ditentukan pengguna untuk membandingkan nilai)
+- array_udiff_uassoc()  :   Bandingkan array, dan kembalikan perbedaannya (bandingkan kunci dan nilai, menggunakan dua fungsi perbandingan kunci yang ditentukan pengguna)
+- array_uintersect()  :   Bandingkan array, dan kembalikan kecocokan (bandingkan nilai saja, menggunakan fungsi perbandingan kunci yang ditentukan pengguna)
+- array_uintersect_assoc()  :   Bandingkan array, dan kembalikan kecocokan (bandingkan kunci dan nilai, menggunakan fungsi bawaan untuk membandingkan kunci dan fungsi yang ditentukan pengguna untuk membandingkan nilai)
+- array_uintersect_uassoc()  :   Bandingkan array, dan kembalikan kecocokan (bandingkan kunci dan nilai, menggunakan dua fungsi perbandingan kunci yang ditentukan pengguna)
+- array_unshift()  :   Menambahkan satu atau lebih elemen ke awal array
+- array_walk()  :   Menerapkan fungsi pengguna ke setiap anggota array
+- array_walk_recursive()  :   Menerapkan fungsi pengguna secara rekursif ke setiap anggota array
+- compact()  :   Buat array yang berisi variabel dan nilainya
+- current()  :   Mengembalikan elemen saat ini dalam array
+- each()  :   Tidak digunakan lagi dari PHP 7.2. Mengembalikan pasangan kunci dan nilai saat ini dari array
+- end()  :   Mengatur pointer internal array ke elemen terakhirnya
+- extract()  :   Mengimpor variabel ke tabel simbol saat ini dari array
+- in_array()  :   Memeriksa apakah nilai yang ditentukan ada dalam array
+- krsort()  :   Mengurutkan array asosiatif dalam urutan menurun, menurut kuncinya
+- ksort()  :   Mengurutkan array asosiatif dalam urutan menaik, menurut kuncinya
+- list()  :   Menetapkan variabel seolah-olah mereka adalah array
+- natcasesort()  :   Mengurutkan array menggunakan algoritme "tatanan alami" yang tidak peka huruf besar-kecil
+- natsort()  :   Mengurutkan array menggunakan algoritme "tatanan alami"
+- next()  :   Majukan pointer array internal dari sebuah array
+- pos()  :   Alias saat ini()  :  
+- prev()  :   Mengembalikan pointer array internal
+- range()  :   Membuat array yang berisi berbagai elemen
+- reset()  :   Mengatur pointer internal array ke elemen pertamanya
+- shuffle()  :   Mengacak array
+- sizeof()  :   Alias dari count()  :  
+- uasort()  :   Mengurutkan array berdasarkan nilai menggunakan fungsi perbandingan yang ditentukan pengguna
+- uksort()  :   Mengurutkan array berdasarkan kunci menggunakan fungsi perbandingan yang ditentukan pengguna
+- usort()  :   Mengurutkan array menggunakan fungsi perbandingan yang ditentukan pengguna
